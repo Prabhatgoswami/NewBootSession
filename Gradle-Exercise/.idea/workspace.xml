@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90ac5b36-8851-4183-b6e7-dbbe1f6c731e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1YWYviMGhzt8diuuObNTrbDdrdO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Gradle-Exercise [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Gradle-Exercise [wrapper]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90ac5b36-8851-4183-b6e7-dbbe1f6c731e" name="Default Changelist" comment="" />
+      <created>1583060049135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583060049135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="126" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583063092598">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="466" y="126" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.684@0.27.1366.684" timestamp="1583063092598" />
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1583072913353">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.27.1366.684@0.27.1366.684" timestamp="1583072913353" />
+    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1583072913351">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.center/0.27.1366.684@0.27.1366.684" timestamp="1583072913351" />
+    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1583072913349">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.left/0.27.1366.684@0.27.1366.684" timestamp="1583072913349" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1583072913352">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.right/0.27.1366.684@0.27.1366.684" timestamp="1583072913352" />
+    <state x="382" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1583071491698">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="382" y="195" key="com.intellij.ide.util.TipDialog/0.27.1366.684@0.27.1366.684" timestamp="1583071491698" />
+  </component>
+</project>
