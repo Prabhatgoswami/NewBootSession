@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3c349c7-97c2-4d21-a646-0dab55bc138d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YRbAq2Bmyim9tpBuyrd7qUzgvQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/healthycoderapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.healthycoderapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.healthycoderapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/healthycoderapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HealthCoderAppTest">
+    <configuration name="BMICalculatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.BMICalculatorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BMICalculatorTest.should_return_false_when_diet_is_Recommended" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.BMICalculatorTest" />
+      <option name="METHOD_NAME" value="should_return_false_when_diet_is_Recommended" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BMICalculatorTest.should_return_true_when_diet_is_Recommended" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.BMICalculatorTest" />
+      <option name="METHOD_NAME" value="should_return_true_when_diet_is_Recommended" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BMICalculatorTest.should_return_worst_BMI" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.BMICalculatorTest" />
+      <option name="METHOD_NAME" value="should_return_worst_BMI" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BMICalculatorTest.should_throw_arithmaticException_when_height_isZero" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.BMICalculatorTest" />
+      <option name="METHOD_NAME" value="should_throw_arithmaticException_when_height_isZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BMICalculatorTest.should_true_if_List_is_NULL" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.BMICalculatorTest" />
+      <option name="METHOD_NAME" value="should_true_if_List_is_NULL" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.Putting_null_as_substring_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.FirstTest" />
+      <option name="METHOD_NAME" value="Putting_null_as_substring_string" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.try_to_use_null_replacement_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.FirstTest" />
+      <option name="METHOD_NAME" value="try_to_use_null_replacement_string" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCoderAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.HealthCoderAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthCoderAppTest.check_correct_BMI_Scores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HealthyCoderApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.healthycoderapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.healthycoderapp" />
+      <option name="MAIN_CLASS_NAME" value="com.healthycoderapp.HealthCoderAppTest" />
+      <option name="METHOD_NAME" value="check_correct_BMI_Scores" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HealthCoderAppTest" />
+        <item itemvalue="JUnit.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.try_to_use_null_replacement_string" />
+        <item itemvalue="JUnit.FirstTest.Putting_null_as_substring_string" />
+        <item itemvalue="JUnit.HealthCoderAppTest.check_correct_BMI_Scores" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3c349c7-97c2-4d21-a646-0dab55bc138d" name="Default Changelist" comment="" />
+      <created>1582908212348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582908212348</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="262" y="53" width="898" height="687" key="#BMICalculatorTest" timestamp="1582911367927">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_return_false_when_diet_is_Recommended" timestamp="1582908958463">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_return_false_when_diet_is_Recommended/67.27.1299.741@67.27.1299.741" timestamp="1582908958463" />
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_return_true_when_diet_is_Recommended" timestamp="1582908737142">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_return_true_when_diet_is_Recommended/67.27.1299.741@67.27.1299.741" timestamp="1582908737142" />
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_return_worst_BMI" timestamp="1582910784190">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_return_worst_BMI/67.27.1299.741@67.27.1299.741" timestamp="1582910784190" />
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_throw_arithmaticException_when_height_isZero" timestamp="1582910067508">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_throw_arithmaticException_when_height_isZero/67.27.1299.741@67.27.1299.741" timestamp="1582910067508" />
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_true_if_List_is_NULL" timestamp="1582911095532">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="41" width="898" height="711" key="#BMICalculatorTest.should_true_if_List_is_NULL/67.27.1299.741@67.27.1299.741" timestamp="1582911095532" />
+    <state x="262" y="53" width="898" height="687" key="#BMICalculatorTest/67.27.1299.741@67.27.1299.741" timestamp="1582911367927" />
+    <state x="262" y="53" width="898" height="687" key="#FirstTest" timestamp="1583079872443">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="262" y="53" width="898" height="687" key="#FirstTest/67.27.1299.741@67.27.1299.741" timestamp="1583079872443" />
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582909500171">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1582909500171" />
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582908267280">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1582908267280" />
+    <state x="294" y="54" width="824" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1582908255277">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="294" y="54" width="824" height="684" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/67.27.1299.741@67.27.1299.741" timestamp="1582908255277" />
+    <state x="469" y="256" width="494" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582909746175">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="469" y="256" width="494" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1582909746175" />
+    <state width="1324" height="438" key="GridCell.Tab.0.bottom" timestamp="1583085054862">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="438" key="GridCell.Tab.0.bottom/0.27.1366.684@0.27.1366.684" timestamp="1583085054862" />
+    <state width="1253" height="556" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583080241906" />
+    <state width="1324" height="438" key="GridCell.Tab.0.center" timestamp="1583085054859">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="438" key="GridCell.Tab.0.center/0.27.1366.684@0.27.1366.684" timestamp="1583085054859" />
+    <state width="1253" height="556" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1583080241904" />
+    <state width="1324" height="438" key="GridCell.Tab.0.left" timestamp="1583085054857">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="438" key="GridCell.Tab.0.left/0.27.1366.684@0.27.1366.684" timestamp="1583085054857" />
+    <state width="1253" height="556" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1583080241903" />
+    <state width="1324" height="438" key="GridCell.Tab.0.right" timestamp="1583085054860">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state width="1324" height="438" key="GridCell.Tab.0.right/0.27.1366.684@0.27.1366.684" timestamp="1583085054860" />
+    <state width="1253" height="556" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1583080241905" />
+    <state width="1253" height="216" key="GridCell.Tab.1.bottom" timestamp="1583078668792">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="216" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1583078668792" />
+    <state width="1253" height="216" key="GridCell.Tab.1.center" timestamp="1583078668791">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="216" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1583078668791" />
+    <state width="1253" height="216" key="GridCell.Tab.1.left" timestamp="1583078668790">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="216" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1583078668790" />
+    <state width="1253" height="216" key="GridCell.Tab.1.right" timestamp="1583078668792">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="216" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1583078668792" />
+    <state x="483" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1583075807945">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="483" y="176" width="446" height="440" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1583075807945" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583070905825">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1583070905825" />
+    <state x="338" y="272" width="535" height="207" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583084761892">
+      <screen x="0" y="27" width="1366" height="684" />
+    </state>
+    <state x="338" y="272" width="535" height="207" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.27.1366.684@0.27.1366.684" timestamp="1583084761892" />
+    <state x="388" y="292" width="646" height="225" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1299.741@67.27.1299.741" timestamp="1582909840492" />
+    <state x="476" y="68" width="471" height="656" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583075814570">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="476" y="68" width="471" height="656" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1299.741@67.27.1299.741" timestamp="1583075814570" />
+    <state x="380" y="175" key="run.anything.popup" timestamp="1583075734322">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1583075734322" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/healthycoderapp/FirstTest.java</url>
+          <line>51</line>
+          <properties class="com.healthycoderapp.FirstTest" method="should_Calculate_Corect_Average">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/healthycoderapp/HealthCoderAppTest.java</url>
+          <line>82</line>
+          <properties class="com.healthycoderapp.HealthCoderAppTest" method="check_correct_BMI_Scores">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HealthyCoderApp$BMICalculatorTest_should_return_true_when_diet_is_Recommended.ic" NAME="BMICalculatorTest.should_return_true_when_diet_is_Recommended Coverage Results" MODIFIED="1583071968779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.healthycoderapp.*</FILTER>
+    </SUITE>
+  </component>
+</project>
