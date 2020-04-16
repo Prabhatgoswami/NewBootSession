@@ -1,0 +1,284 @@
+{
+	"info": {
+		"_postman_id": "b7bad7a9-72dc-4986-8e03-8c6149f0abc3",
+		"name": "Student API Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Assignment",
+			"item": [
+				{
+					"name": "Get Student List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques2) a) Post Student data Prabhat",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \t\"id\": 2,\n    \t\"firstName\": \"Prabhat\",\n    \t\"lastName\": \"Goswami\",\n    \t\"email\": \"faucibus.orci.luctus@Duisac.net\",\n    \t\"programme\": \"Financial Analysis\",\n    \t\"courses\": [\n        \t\"Accounting\",\n      \n     \"Statistics\"\n    \t]\n\t}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques 2) b) Get Student data Prabhat",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques4 Post Existed EmailID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "396739e5-6ec9-446c-9ea2-3b4549637f0f",
+								"exec": [
+									"tests[\"Validating response body\"] = responseBody.has(\"Email address already exists\");",
+									"tests[\"Validating Status Code\"] = responseCode.code === 500 ;"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \t\"id\": 3,\n    \t\"firstName\": \"Prabhat\",\n    \t\"lastName\": \"Goswami\",\n    \t\"email\": \"faucibus.orci.luctus@Duisac.net\",\n    \t\"programme\": \"Financial Analysis\",\n    \t\"courses\": [\n        \t\"Accounting\",\n      \n     \"Statistics\"\n    \t]\n\t}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques3) Financial Analysis",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "eda2ddd6-65f3-4e4a-b1d0-7c03eae98155",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/list/?programme=Financial Analysis",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"list",
+								""
+							],
+							"query": [
+								{
+									"key": "programme",
+									"value": "Financial Analysis"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques6) a) Computer Science",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "eda2ddd6-65f3-4e4a-b1d0-7c03eae98155",
+								"exec": [
+									"tests[\"Validating Status Code\"] = responseCode.code === 200;",
+									"tests[\"Validating response body\"] = responseBody.has(\"Computer Science\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/list?programme=Computer Science",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"list"
+							],
+							"query": [
+								{
+									"key": "programme",
+									"value": "Computer Science"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques6) b) Criminology",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "eda2ddd6-65f3-4e4a-b1d0-7c03eae98155",
+								"exec": [
+									"tests[\"Validating Status Code\"] = responseCode.code === 200;",
+									"tests[\"Validating response body\"] = responseBody.has(\"Criminology\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/list?programme=Criminology",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"list"
+							],
+							"query": [
+								{
+									"key": "programme",
+									"value": "Criminology"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ques 5) Invalid mail",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d3f6aa7a-d243-449f-bb02-c124e5905601",
+								"exec": [
+									"tests[\"Validating Error\"] = responseBody.has(\"Please correct the following errors\");",
+									"tests[\"Validating Status Code\"] = responseCode.code === 500 ;",
+									"tests[\"Validating response body for error\"] = responseBody.has(\"not a well-formed email address\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \t\"id\": 300,\n    \t\"firstName\": \"Prabhat23\",\n    \t\"lastName\": \"Goswami\",\n    \t\"email\": \"hello\",\n    \t\"programme\": \"Financial Analysis\",\n    \t\"courses\": [\n        \t\"Accounting\",\n      \n     \"Statistics\"\n    \t]\n\t}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
